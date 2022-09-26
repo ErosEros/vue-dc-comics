@@ -55,6 +55,7 @@
       align-items: center;
       column-gap: 15px;
       color:white;
+      cursor: pointer;
   
   } img {
       height: 40px;

@@ -75,10 +75,13 @@
       li {
           list-style-type: none;
           padding: 2px 0;
+          
           a{
               color: rgb(201, 192, 192);
               text-decoration: none;
               font-size:12px;
+              display: flex;
+              text-align: initial;
           }
           a:hover{
               text-decoration:underline;

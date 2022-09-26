@@ -3,6 +3,7 @@
   <HeaderComponent />
   <SecondSection />
   <FirstFooter />
+  <SecondFooter />
   </div>
 </template>
 
@@ -10,13 +11,15 @@
 import HeaderComponent from './components/HeaderComponent.vue'
 import SecondSection from './components/SecondSection.vue';
 import FirstFooter from './components/FirstFooter.vue';
+import SecondFooter from './components/SecondFooter.vue';
 
 export default {
   name: 'App',
   components: {
     HeaderComponent,
     SecondSection,
-    FirstFooter
+    FirstFooter,
+    SecondFooter
 }
 }
 </script>
