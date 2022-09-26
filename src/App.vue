@@ -1,17 +1,23 @@
 <template>
   <div id="app">
   <HeaderComponent />
+  <SecondSection />
+  <FirstFooter />
   </div>
 </template>
 
 <script>
 import HeaderComponent from './components/HeaderComponent.vue'
+import SecondSection from './components/SecondSection.vue';
+import FirstFooter from './components/FirstFooter.vue';
 
 export default {
   name: 'App',
   components: {
     HeaderComponent,
-  }
+    SecondSection,
+    FirstFooter
+}
 }
 </script>
 
